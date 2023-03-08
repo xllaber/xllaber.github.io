@@ -1,0 +1,66 @@
+#wrapper{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    animation: fadeIn 5s;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: #f9a602;
+    text-align: center;
+}
+
+#content{
+    width: 80%;
+    background-color: #DDDDD1;
+    text-align: center;
+}
+
+.text{
+    padding: 5%;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-line{
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.contact-line:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+@media (max-width: 780px){
+    #wrapper{
+        width: 100%;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    #sidebar{
+        width: 40%;
+    }
+
+    #content{
+        width: 60%;
+    }
+}

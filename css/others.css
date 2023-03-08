@@ -1,0 +1,15 @@
+#wrapper{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    animation: fadeIn 5s;
+    background-color: #DDDDD1;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 780px){
+    #wrapper{
+        width: 100%;
+    }
+}

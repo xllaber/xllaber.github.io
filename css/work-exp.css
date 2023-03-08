@@ -1,0 +1,24 @@
+#wrapper{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    animation: fadeIn 5s;
+    background-color: #DDDDD1;
+}
+
+.work-exp{
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.details{
+    font-size: 20px;
+}
+
+@media (max-width: 780px){
+    #wrapper{
+        width: 100%;
+    }
+}
