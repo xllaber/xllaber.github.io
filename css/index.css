@@ -44,7 +44,7 @@
     color: #f9a602;
     margin-right: 25px;
     font-size: 25px;
-    transition: 0.2s;
+    transition: 0.2s, .2s;
 }
 
 .link:hover{
